@@ -1,0 +1,9 @@
+// config/services.yaml
+// =====================
+services:
+	# ...
+	App\Common\Infrastructure\CommandBus:
+		factory: 'App\Service\CommandBusFactory:build'
+		# get all ddd.command_handler
+		arguments: [!tagged ddd.command_handler, @logger]
+		lazy: true
