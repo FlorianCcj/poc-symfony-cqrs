@@ -1,5 +1,6 @@
+<?php
 // src/App/Subscription/Command/CreateSubscriptionPlanCommand.php
-namescpace App\Subscription\Command;
+namespace App\Subscription\Command;
 
 class CreateSubscriptionPlanCommand implements Command
 {

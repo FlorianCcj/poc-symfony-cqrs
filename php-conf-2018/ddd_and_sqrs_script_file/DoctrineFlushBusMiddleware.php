@@ -1,3 +1,4 @@
+<?php
 // DoctrineFlushBusMiddleware.php
 
 class DoctrineFlushBusMiddleware
@@ -18,7 +19,7 @@ class DoctrineFlushBusMiddleware
 			$commandResponse = $this->next->dispatch($command);
 			$this->entityManager->flush();
 			$this->entityManager->getConnection()->commit();
-		} catch() {
+		} catch (\Exception $e) {
 			$this->entityManager->getConnection()->rollBack();
 		}
 		return $commandResponse;

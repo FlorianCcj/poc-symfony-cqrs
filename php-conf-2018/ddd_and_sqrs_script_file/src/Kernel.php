@@ -1,6 +1,8 @@
+<?php
 // Kernel.php
 
-protected function build(Container $container)
+// protected function build(Container $container)
+function build(Container $container)
 {
 	// all class which implement CommanHandler will be tag with ddd.command_handler  
 	$container

@@ -1,3 +1,4 @@
+<?php
 // SendWelcomeMailOnMemberJoined.php
 
 class SendWelcomeMailOnMemberJoined implements EventHandler

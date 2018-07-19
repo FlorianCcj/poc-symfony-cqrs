@@ -1,3 +1,4 @@
+<?php
 // src/App/Subscription/Query/FindActiveSubscriptionPlansQuery.php
 namespace App\Subscription\Query;
 

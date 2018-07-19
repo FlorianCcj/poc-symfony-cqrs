@@ -1,3 +1,4 @@
+<?php
 // BasketEventApplier.php
 
 trait BasketEventApplier
@@ -17,5 +18,5 @@ trait BasketEventApplier
 
 	private $eventMap = [
 		ProductAdded::class => 'productAdded'
-	]
+	];
 }

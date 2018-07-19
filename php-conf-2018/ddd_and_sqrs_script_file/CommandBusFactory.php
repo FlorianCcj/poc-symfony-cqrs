@@ -1,9 +1,10 @@
+<?php
 // CommandBusFactory.php
 
 class CommandBusFactory
 {
 	static function build(
-		iterable $handler
+		iterable $handler,
 		Logger $logger
 	): CommandBus
 	{

@@ -1,3 +1,4 @@
+<?php
 // MemberJoined.php
 namespace App\MemberJoined\Domain;
 

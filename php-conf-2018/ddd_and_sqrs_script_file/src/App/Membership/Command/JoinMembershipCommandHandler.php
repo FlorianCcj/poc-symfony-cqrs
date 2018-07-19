@@ -1,9 +1,10 @@
+<?php
 class JoinMembershipCommandHandler implements CommandHandler
 {
 	public function handle(Command $command): CommandResponse
 	{
 		return CommandResponse::withValue(
-			$membership->id();
+			$membership->id(),
 			new MemberJoined($membership->id(), $plan->id())
 		);
 	}

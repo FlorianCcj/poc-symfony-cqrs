@@ -1,3 +1,4 @@
+<?php
 // src/App/Subscription/Domain/SubscriptionPlanRepository.php
 namespace App\Subscription\Domain;
 

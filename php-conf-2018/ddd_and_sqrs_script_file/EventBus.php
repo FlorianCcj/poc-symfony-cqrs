@@ -1,3 +1,4 @@
+<?php
 // EventBus.php
 
 class EventBus implements \App\Common\DDD\EventBus

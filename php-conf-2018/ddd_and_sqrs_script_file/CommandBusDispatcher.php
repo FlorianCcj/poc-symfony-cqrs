@@ -1,3 +1,4 @@
+<?php
 // CommandBusDispatcher.php
 
 class CommandBusDispatcher implements CommandBusMiddleWare

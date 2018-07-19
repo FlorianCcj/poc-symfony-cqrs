@@ -1,3 +1,4 @@
+<?php
 // EventDispatcherBusMiddleware.php
 
 class EventDispatcherBusMiddleware implements CommandBusMiddleware

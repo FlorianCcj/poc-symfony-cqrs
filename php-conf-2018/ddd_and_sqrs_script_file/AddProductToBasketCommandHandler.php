@@ -1,3 +1,4 @@
+<?php
 // AddProductToBasketCommandHandler.php
 class AddProductToBasketCommandHandler implements CommandHandler
 {
